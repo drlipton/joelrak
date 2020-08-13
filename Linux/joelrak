@@ -24,13 +24,13 @@ xkb_symbols "basic" {
 
     key <AD01> { [apostrophe,	quotedbl, dead_acute, dead_diaeresis ] };
     key <AD02> { [     comma,       less,      ccedilla,         Ccedilla ] };
-    key <AD03> { [    period,    greater, dead_abovedot,       dead_caron ] };
+    key <AD03> { [    period,    greater, braceleft,       dead_caron ] };
     key <AD04> { [	   p,          P,    braceleft,       Odiaeresis ] };
-    key <AD05> { [	   y,          Y,    udiaeresis,       Udiaeresis ] };
+    key <AD05> { [	   y,          Y,    braceleft,       Udiaeresis ] };
     key <AD06> { [	   f,	F		]	};
-    key <AD07> { [	   g,	G		]	};
+    key <AD07> { [	   g,	G,braceright		]	};
     key <AD08> { [	   c,          C,     braceright,             cent ] };
-    key <AD09> { [	   r,          R,    registered,       registered ] };
+    key <AD09> { [	   r,          R,    braceright,       registered ] };
     key <AD10> { [	   l,          L,        oslash,         Ooblique ] };
     key <AD11> { [     slash,   question,  questiondown,        dead_hook ] };
     key <AD12> { [     equal,       plus,      multiply,         division ] };
