@@ -25,11 +25,11 @@ xkb_symbols "basic" {
     key <AD01> { [apostrophe,	quotedbl, dead_acute, dead_diaeresis ] };
     key <AD02> { [     comma,       less,      ccedilla,         Ccedilla ] };
     key <AD03> { [    period,    greater, dead_abovedot,       dead_caron ] };
-    key <AD04> { [	   p,          P,    odiaeresis,       Odiaeresis ] };
+    key <AD04> { [	   p,          P,    braceleft,       Odiaeresis ] };
     key <AD05> { [	   y,          Y,    udiaeresis,       Udiaeresis ] };
     key <AD06> { [	   f,	F		]	};
     key <AD07> { [	   g,	G		]	};
-    key <AD08> { [	   c,          C,     copyright,             cent ] };
+    key <AD08> { [	   c,          C,     braceright,             cent ] };
     key <AD09> { [	   r,          R,    registered,       registered ] };
     key <AD10> { [	   l,          L,        oslash,         Ooblique ] };
     key <AD11> { [     slash,   question,  questiondown,        dead_hook ] };
@@ -38,13 +38,13 @@ xkb_symbols "basic" {
     key <AC01> { [	   a,          A,        aring,           Aring ] };
     key <AC02> { [	   o,          O,        adiaeresis,           Adiaeresis ] };
     key <AC03> { [	   e,          E,        odiaeresis,           Odiaeresis ] };
-    key <AC04> { [	   u,          U,        uacute,           Uacute ] };
-    key <AC05> { [	   i,          I,        iacute,           Iacute ] };
-    key <AC06> { [	   d,          D,           eth,              ETH ] };
-    key <AC07> { [	   h,	H		]	};
-    key <AC08> { [	   t,          T,         thorn,            THORN ] };
-    key <AC09> { [	   n,          N,        ntilde,           Ntilde ] };
-    key <AC10> { [	   s,          S,        ssharp,          section ] };
+    key <AC04> { [	   u,          U,        numbersign,           Uacute ] };
+    key <AC05> { [	   i,          I,        parenleft,           Iacute ] };
+    key <AC06> { [	   d,          D,           parenright,              ETH ] };
+    key <AC07> { [	   h,	H, bracketleft		]	};
+    key <AC08> { [	   t,          T,         bracketright,            THORN ] };
+    key <AC09> { [	   n,          N,        parenleft,           Ntilde ] };
+    key <AC10> { [	   s,          S,        parenright,          section ] };
     key <AC11> { [     minus, underscore,           yen,    dead_belowdot ] };
 
     key <AB01> { [ semicolon,      colon,     z,           degree ] };
@@ -52,7 +52,7 @@ xkb_symbols "basic" {
     key <AB03> { [	   j,	J, c,paragraph		]	};
     key <AB04> { [	   k,          K,            v,               OE ] };
     key <AB05> { [	   x,	X		]	};
-    key <AB06> { [	   b,	B		]	};
+    key <AB06> { [	   b,	B,bracketright		]	};
     key <AB07> { [	   m,          M,            mu,               mu ] };
     key <AB08> { [	   w,          W,         aring,            Aring ] };
     key <AB09> { [	   v,	V		]	};
